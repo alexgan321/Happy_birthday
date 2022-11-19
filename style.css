@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Lora:400,400i,700,700i|Marck+Script|Pattaya&display=swap&subset=cyrillic'); 
+				
+body {
+    
+     background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/4c032e28008799.56e41b3bbd979.gif') no-repeat; 
+    
+    background-size: auto auto;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3.0em;
+    background: white url('https://i.yapx.ru/SCWKK.gif'); /* золото */
+    
+    padding-left: 100px;
+}
+p {
+    font-family: 'Lora', serif; 
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.7em;
+    margin-bottom: -20px;
+    color: #ffD460; /* золото */
+    text-shadow: 1px 2px 1px #000;
+    line-height: 0.9em;
+    z-index: 13;
+}
+
+.clip {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.poz {
+    position: absolute;
+    width: 900px;
+    height: auto;
+    top: -10px;
+    left: 200px;
+    z-index: 5;
+}
+
+.pozrun {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 100px;
+    left: 420px;
+    z-index: 5;
+}		
+
+div.pic {
+    position: relative;
+}
+
+div.pic img.one {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    z-index: 7;
+}
+
+div.pic img.two {
+    position: absolute;
+    top: 150px;
+    left: 520px;
+    z-index: 3;
+}
+
+div.pic img.three {
+    position: absolute;
+    top: 260px;
+    left: 830px;
+    z-index: -5;
+}
+div.pic img.fourth {
+    position: absolute;
+    top: 60px;
+    left: 920px;
+    z-index: 12;
+}
+div.pic img.fifth {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+#twrapOut {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    color: #ffD460; /* золото */
+    text-shadow: 1px 2px 1px #000;
+    text-align: left;
+    font-family: 'Lora', serif;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.0rem;
+}
+
+.square {
+ display: inline-block;
+ padding: 5px;
+ margin: 5px;
+ position: absolute;
+ top: 180px;
+ left: 270px;		 
+ }		
+
+.material-icons {
+ font-size: 44px;
+ cursor: pointer;
+ color: #00f;
+ padding: 5px 5px;
+ border-radius: 5px;
+ }
